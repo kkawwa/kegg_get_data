@@ -55,7 +55,7 @@ def get_nt_seq
 	get_data_basic("NT seq", 'x = @doc.xpath("//tr[#{i}]/td/text()").text.split("\n")[1..-1].join')
 end
 
-#ruby kegg_get_data_work_flow.rb
+
 
 kegg_orthology_url = 'http://www.genome.jp/dbget-bin/www_bget?ko:K02628' #pecA
 gene_urls = get_gene_urls(kegg_orthology_url)
